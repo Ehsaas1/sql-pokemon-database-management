@@ -1,0 +1,47 @@
+<DATA>
+
+	<ROW>
+		<Field>ability_id</Field>
+		<Type>int</Type>
+		<Null>NO</Null>
+		<Key>PRI</Key>
+		<Default>NULL</Default>
+		<Extra>auto_increment</Extra>
+	</ROW>
+
+	<ROW>
+		<Field>pokemon_id</Field>
+		<Type>int</Type>
+		<Null>NO</Null>
+		<Key>MUL</Key>
+		<Default>NULL</Default>
+		<Extra></Extra>
+	</ROW>
+
+	<ROW>
+		<Field>ability_name</Field>
+		<Type>varchar(120)</Type>
+		<Null>NO</Null>
+		<Key></Key>
+		<Default>NULL</Default>
+		<Extra></Extra>
+	</ROW>
+
+	<ROW>
+		<Field>is_hidden</Field>
+		<Type>tinyint(1)</Type>
+		<Null>NO</Null>
+		<Key></Key>
+		<Default>0</Default>
+		<Extra></Extra>
+	</ROW>
+
+	<ROW>
+		<Field>extra_info</Field>
+		<Type>json</Type>
+		<Null>YES</Null>
+		<Key></Key>
+		<Default>NULL</Default>
+		<Extra></Extra>
+	</ROW>
+</DATA>

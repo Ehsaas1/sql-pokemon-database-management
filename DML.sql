@@ -1,0 +1,4 @@
+/*
+DDL - Data Modification Language
+
+*/
